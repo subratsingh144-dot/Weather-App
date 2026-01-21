@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather app</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <h1 class="weather-title"> Weather App</h1>
+    <section>
+        <div class="searchBar">
+            <input class="search-input" type="text" placeholder="Seach for any city...">
+            
+                <span><i class="fa-solid fa-location-dot"></i></span>
+                <button class="ser-btn">Search</button>
+           
+
+        </div>
+        <div class="error">
+            <p>No such place Exist!</p>
+
+        </div>
+
+
+
+        <section class="container">
+
+            <div class="weather-data">
+                <div class="area-temp">
+                    <h3 id="area"><b>Bhubaneswar</b></h3>
+                    <p id="day">satureday dec 23</p>
+                    <p id="Today-time">05:34:15 PM</p>
+                    <p id="temp"><b>20°C</b></p>
+                    <p id="weather-type">Overcast Clouds</p>
+
+                </div>
+                <div class="weather-logo">
+                    <img src="./weatherPNG/mist.png" alt="logo">
+
+                </div>
+
+
+            </div>
+
+            <div class="weather-details">
+                <div class="sun-timing">
+                    <div >
+                        <p>sunrise</p>
+                        <p id="sunrise"><b>05:52 AM</b></p>
+
+                    </div>
+                    <div >
+                        <p>sunset</p>
+                        <p id="sunset"><b>06:37 PM</b></p>
+
+                    </div>
+
+                </div>
+                <hr>
+                <div class="weather-card">
+
+
+
+                    <div class="weather-item">
+                        <span class="label">
+                            <i class="fa-solid fa-droplet" style="color: #74C0FC;"></i> humidity
+                        </span>
+                        <span class="value" id="humidity">68%</span>
+                    </div>
+
+                    <div class="weather-item">
+                        <span class="label">
+                            <i class="fa-solid fa-wind"></i> wind
+                        </span>
+                        <span class="value" id="wind">10 km/h</span>
+                    </div>
+
+                    <div class="weather-item">
+                        <span class="label">
+                            <i class="fa-solid fa-temperature-half" style="color: #eda445;"></i>Feels Like
+                        </span>
+                        <span class="value" id="feels_like">24°C</span>
+                    </div>
+
+                    <div class="weather-item">
+                        <span class="label">
+                            <i class="fa-solid fa-gauge-high" style="color: #ea5834;"></i>pressure
+                        </span>
+                        <span class="value" id="pressure">1014 hPa</span>
+                    </div>
+
+                    <div class="weather-item">
+                        <span class="label">
+                            <i class="fa-solid fa-eye" style="color: #2fbbe9;"></i>Visibility
+                        </span>
+                        <span class="value" id="visible">10.0 Km</span>
+                    </div>
+
+                    <div class="weather-item">
+                        <span class="label">
+                            <i class="fa-solid fa-leaf" style="color: #0c9d3e;"></i>Air Quality
+                        </span>
+                        <span class="value" id="AQI">Fair</span>
+                    </div>
+                    <hr>
+                    <div class="health-recomd">
+                        <h3>Health-Recommendations</h3>
+                        <p class="H-recommend" id="H-recommend">Air Quality is acceptable. usually sensitive people
+                            should consider reducing prolonged or heavy exertion.</p>
+
+                    </div>
+
+                </div>
+
+
+
+
+            </div>
+
+            </div>
+
+        </section>
+
+
+
+    </section>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
