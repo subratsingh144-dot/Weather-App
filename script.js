@@ -1,5 +1,5 @@
 
-const API_KEY = "766d0ebf947c006e68823120be3d4e1a";
+const API_KEY = "XXXXXXXXXX06e68823120be3d4e1a";
 const API_URL = `https://api.openweathermap.org/data/2.5/weather`;
 
 const SearchBtn = document.querySelector(".ser-btn");
